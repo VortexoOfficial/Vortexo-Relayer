@@ -1,0 +1,17 @@
+{
+  "name": "vortexofunzk-relayer",
+  "version": "1.0.0",
+  "description": "Relayer service for VortexoFunZK.withdraw() — verifies Groth16 proofs locally, then submits withdrawals on behalf of clients in exchange for the embedded fee.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ethers": "6.17.0",
+    "express": "^4.19.2",
+    "snarkjs": "0.7.4"
+  },
+  "license": "MIT"
+}
